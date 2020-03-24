@@ -129,7 +129,7 @@ header {
 
 .menuitem a {
     width: 100%;
-    text-decoration: none;
+   
     color: #b17761;
     height: 120px;
 }
@@ -343,4 +343,51 @@ footer {
 
 .bg-color-work-history h3 {
     padding-left: 20px;
+}
+
+/*-------------------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #b17761;
+}
+
+button[type="submit"]:hover {
+    background: #ea5348;
+    color: white;
+}
+
+/*-------------------------------------------------Media Queries */
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
+
+@media(max-width: 575px) {
+    .ui-menu-color-contact {
+    background-color: whitesmoke;
+    }
+
+    .ui-menu-color-download {
+    background-color: black;
+    }
 }
