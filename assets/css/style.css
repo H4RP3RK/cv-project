@@ -2,27 +2,24 @@
 
 /*-------------------------------------------------Colours */
 
-body {
-    background-color: #ceccd7;
-}
-
+body,
 .bg-color-name-title {
     background-color: #ceccd7;
 }
 
-.ui-menu-color-home {
+ {
+    background-color: #ceccd7;
+}
+
+.ui-menu-color-home,
+.ui-menu-color-contact,
+.ui-menu-color-github {
     background-color: black;
 }
 
-.ui-menu-color-cv {
-    background-color: whitesmoke;
-}
-
-.ui-menu-color-contact {
-    background-color: black;
-}
-
-.ui-menu-color-download {
+.ui-menu-color-cv,
+.ui-menu-color-download,
+.ui-menu-color-interests {
     background-color: whitesmoke;
 }
 
