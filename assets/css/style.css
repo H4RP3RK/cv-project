@@ -388,3 +388,7 @@ button[type="submit"]:hover {
     background-color: black;
     }
 }
+
+#map {
+    min-height: 360px;
+    }
